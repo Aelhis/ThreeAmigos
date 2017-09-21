@@ -8,20 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		7925308D1F734AE300D230FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7925308C1F734AE300D230FF /* AppDelegate.swift */; };
-		7925308F1F734AE300D230FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7925308E1F734AE300D230FF /* ViewController.swift */; };
 		792530921F734AE300D230FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792530901F734AE300D230FF /* Main.storyboard */; };
-		792530941F734AE300D230FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792530931F734AE300D230FF /* Assets.xcassets */; };
 		792530971F734AE300D230FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792530951F734AE300D230FF /* LaunchScreen.storyboard */; };
+		7925309F1F73524A00D230FF /* MascotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7925309E1F73524A00D230FF /* MascotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		792530891F734AE300D230FF /* Three Amigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Amigos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7925308C1F734AE300D230FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7925308E1F734AE300D230FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		792530911F734AE300D230FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		792530931F734AE300D230FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		792530961F734AE300D230FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		792530981F734AE300D230FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7925309E1F73524A00D230FF /* MascotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotViewController.swift; sourceTree = "<group>"; };
+		792C54E21F736D14006C0B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +54,11 @@
 			isa = PBXGroup;
 			children = (
 				7925308C1F734AE300D230FF /* AppDelegate.swift */,
-				7925308E1F734AE300D230FF /* ViewController.swift */,
 				792530901F734AE300D230FF /* Main.storyboard */,
-				792530931F734AE300D230FF /* Assets.xcassets */,
+				792C54E21F736D14006C0B32 /* Assets.xcassets */,
 				792530951F734AE300D230FF /* LaunchScreen.storyboard */,
 				792530981F734AE300D230FF /* Info.plist */,
+				7925309E1F73524A00D230FF /* MascotViewController.swift */,
 			);
 			path = "Three Amigos";
 			sourceTree = "<group>";
@@ -124,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				792530971F734AE300D230FF /* LaunchScreen.storyboard in Resources */,
-				792530941F734AE300D230FF /* Assets.xcassets in Resources */,
 				792530921F734AE300D230FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7925308F1F734AE300D230FF /* ViewController.swift in Sources */,
 				7925308D1F734AE300D230FF /* AppDelegate.swift in Sources */,
+				7925309F1F73524A00D230FF /* MascotViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
